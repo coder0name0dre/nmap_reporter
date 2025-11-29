@@ -34,3 +34,25 @@ Think of it as knocking on all the doors of machines on a network and seeing who
 
 ---
 
+## Usage
+
+1. Clone the repo:
+
+```
+git clone https://github.com/coder0name0dre/nmap_reporter.git
+cd nmap_reporter
+```
+
+2. Run the parser on the included sample XML:
+
+`python3 nmap_reporter.py --xml sample.xml --out test_report`
+
+3. Output files:
+
+  - `test_report.md` - Markdown report
+  - `test_report.html` - simple HTML report you can open in a web browser
+
+---
+
+## Optional: Run `nmap` from the script (explicit, gated)
+
