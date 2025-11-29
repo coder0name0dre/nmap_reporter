@@ -14,3 +14,21 @@ This scripot is a beginner friendly single file tool to **parse Nmap XML output*
 
 ---
 
+## Requirements
+
+- Python 3.8+
+- Optional: `nmap` installed on your machine if you plan to run scans via the script:
+  On Debian/Ubuntu: `sudo apt update && sudo apt install nmap`
+  On macOS (Homebrew): `brew install nmap`
+
+---
+
+## What is Nmap?
+
+- Nmap (short for Network Mapper) is a free, open-source tool used to discover devices on a network and gather information about them.
+- It checks which computers are online, what ports they have open, and what services or software they’re running.
+
+Think of it as knocking on all the doors of machines on a network and seeing who answers and what they say.
+
+---
+
