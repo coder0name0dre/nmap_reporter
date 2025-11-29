@@ -79,3 +79,11 @@ Notes:
 
 ---
 
+## Common issues
+
+- `TCP/IP fingerprinting requires root privileges` - run the scan with `sudo` or remove `-0` from the Nmap options (OS detection).
+- **Permission/privilege errors** - some nmap flags require root. Either omit those flags or run the script with elevated permissions.
+- **XML file not found** - ensure `--xml` points to an existing file and you have read permissions.
+
+---
+
