@@ -6,3 +6,11 @@ This scripot is a beginner friendly single file tool to **parse Nmap XML output*
 
 ---
 
+## Files in this repo
+
+- `nmap_reporter.py` - a single Python script (parsing, optional scanning, report generation).
+- `sample.xml` - a small example Nmap XML snippet for testing the parser.
+- `README.md`
+
+---
+
