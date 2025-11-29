@@ -20,6 +20,7 @@ This scripot is a beginner friendly single file tool to **parse Nmap XML output*
 - Optional: `nmap` installed on your machine if you plan to run scans via the script:
 
   On Debian/Ubuntu: `sudo apt update && sudo apt install nmap`
+  
   On macOS (Homebrew): `brew install nmap`
 
 ---
