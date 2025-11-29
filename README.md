@@ -87,3 +87,14 @@ Notes:
 
 ---
 
+## Security & ethical guidelines
+
+- Only scan systems you own or have explicit permission to scan.
+- Treat results sensitively. Do not publish findings from systems you do not control.
+- Be aware that scanning may trigger intrusion detection systems or violate policies.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/coder0name0dre/nmap_reporter/blob/main/LICENSE).
