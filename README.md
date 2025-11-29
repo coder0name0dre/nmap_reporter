@@ -56,3 +56,17 @@ cd nmap_reporter
 
 ## Optional: Run `nmap` from the script (explicit, gated)
 
+By design, automatic scanning is disabled by default. To run `nmap` from the script, pass `--run-nmap` and provide `--target`:
+
+```
+sudo python3 nmap_reporter.py --run-nmap --target 192.0.2.1 --out myscan
+```
+
+Notes:
+  - `sudo` is required for certain scan types (for example, `-0` OS detection requires raw socket privileges). If you omit `sudo`, Nmap may print:
+
+    `TCP/IP fingerprinting (for OS scan) requires root privileges. QUITTING!`
+  - Only use `--run-nmap` for authorised targets.
+
+---
+
