@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<nmaprun>
+  <host>
+    <status state="up"/>
+    <address addr="192.0.2.1" addrtype="ipv4"/>
+    <hostnames>
+      <hostname name="example.local"/>
+    </hostnames>
+    <ports>
+      <port protocol="tcp" portid="22">
+        <state state="open"/>
+        <service name="ssh" product="OpenSSH" version="7.4"/>
+      </port>
+      <port protocol="tcp" portid="80">
+        <state state="open"/>
+        <service name="http" product="nginx" version="1.14"/>
+      </port>
+    </ports>
+    <os>
+      <osmatch name="Linux 3.10 - 4.11" accuracy="85"/>
+    </os>
+  </host>
+</nmaprun>
