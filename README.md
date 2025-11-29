@@ -34,7 +34,7 @@ Think of it as knocking on all the doors of machines on a network and seeing who
 
 ---
 
-## Usage
+## Usage
 
 1. Clone the repo:
 
