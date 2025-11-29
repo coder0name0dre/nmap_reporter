@@ -70,3 +70,12 @@ Notes:
 
 ---
 
+## How it works
+
+- `parse_nmap_xml()` uses Python's `xml.etree.ElementTree` to parse Nmap XML into a Python structure (hosts, ports, services, OS guess).
+- `generate_markdown_report()` converts the parsed data into Markdown.
+- `markdown_to_simple_html()` converts the Markdown into a simple, dependency-free HTML document.
+- `run_nmap()` is an optional function that wraps `subprocess.run()` to call the `map` binary and save XML output.
+
+---
+
