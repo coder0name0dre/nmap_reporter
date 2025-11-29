@@ -64,8 +64,9 @@ sudo python3 nmap_reporter.py --run-nmap --target 192.0.2.1 --out myscan
 
 Notes:
   - `sudo` is required for certain scan types (for example, `-0` OS detection requires raw socket privileges). If you omit `sudo`, Nmap may print:
-
-    `TCP/IP fingerprinting (for OS scan) requires root privileges. QUITTING!`
+    ```
+    TCP/IP fingerprinting (for OS scan) requires root privileges. QUITTING!
+    ```
   - Only use `--run-nmap` for authorised targets.
 
 ---
